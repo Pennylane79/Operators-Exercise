@@ -16,9 +16,15 @@
 
             Console.WriteLine($"{a}/{b} ={qout}have{sum}a{diff}wonderful{prod}time{rem}");
 
-               
+            var answerOne = CircleArea(1.5);
+            Console.WriteLine(answerOne);
+ 
 
 
+        }
+        public static double CircleArea(double radius)
+        {
+            return Math.PI * radius * radius;
         }
     }
 }
